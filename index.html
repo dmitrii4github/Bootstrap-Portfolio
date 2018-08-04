@@ -5,7 +5,7 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<!-- Linking CSS -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!-- Linking jQuery -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<!-- Linking Google Fonts -->
@@ -15,25 +15,25 @@
 
 <div class="container">
 
-	<div class="jumbotron bg-primary text-center">
+	<div class="jambotron">
 		<h1>Dmitrii Zakharov Page!</h1>
 	</div>
 
-	<div class="row">
+	<div class="container">
 	
 		<div class="col-sm-6">
 			<div class="panel panel-primary">
 				<div class="panel-heading">About Dmitrii Zakharov</div>
 				<div class="panel-body">
 					<p>
-						Dmitrii Zakharov (born May 28, 1973), is a human and Splunk celebrity. 
+						<b>Dmitrii Zakharov</b> (born May 28, 1973), is a human and Splunk celebrity. 
 					</p> 
 					<p>
 						Dmitrii's popularity originated from a picture posted to the Splunk HipChat channel on October 7, 2013. Any Splunk employee could bring up this emoji by typing {idealform}.
                     </p>
                     <p>
                         Dmitrii was born in Novomoskovsk, Ukraine and when he was one years old, his family moved to the Moscow Region of Russia. Dmitrii grew up in Poushchino, the Biology Resarch 
-                        Center of the USSR. 
+                        Center of    the USSR. 
                     </p>
                     <p>
                         After High School Dmitrii entered the Biology Department of Moscow State University. He didn't graduate and in 1994 moved to the USA and entered Purdue University. Dmitrii graduated
@@ -48,19 +48,51 @@
 			</div>
 		</div>
 
+
 		<div class="col-sm-6">
 			<div class="well text-center">
-				<div>
+				<div class="panel-body">
 					<img class="img-responsive" src="assets/images/SpeakerPhoto_Zakharov_Dmitrii.jpg">
-				</div>
-			</div>
-		</div>
+        
+                </div>
+            </div>
+        </div>
 
-	</div>
+    </div>
 
-	<br><br>
+    <div class="row">
+            <div class="col-sm-6 text-center">
+                    <button class="btn btn-primary form-control" id="factButton">Random Dmitrii Zakharov fact</button>
+                    <div class="well text-center">
+                        <div>
+                            <p id="factText">Click the button for a random Dmitrii fact!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">List Of Dmitrii's Favorite Things</div>
+                            <div class="panel-body">
+                                <ol>
+                                    <li>Sleep</li>
+                                    <li>Food</li>
+                                    <li>Soccer</li>
+                                    <li>Splunk</li>
+                                    <li>Money</li>
+                                </ol>
+                            </div>
+                        </div>
+                </div>
+    </div>
+    
+    <br><br>
+    <a href="portfolio.html">Portfolio</a>
+
+    <br><br>
+    <a href="contact.html">Contact Dmitrii Zakharov</a>
 
 <!-- Linking our JavaScript file -->
-<script type="text/javascript" src="logic.js"></script>
+<script type="text/javascript" src="assets/js/logic.js"></script>
 </body>
 </html>
