@@ -97,6 +97,29 @@ body {
 		height: 600px;
 	}
 
+	.about-me__container_upper {
+		background-image: url(../images/concrete-texture/concrete-texture.png);
+		height: 50px;
+	}
+
+	.about-me {
+		background: white;
+		height: 500px;
+		width: 900px;
+		margin-left:297px;
+		border: 1px #cccccc solid;
+	}
+
+	#AboutMe {
+		background: white;
+		height: 50px;
+		width: 200px;
+		color: #4aaaa5;
+		padding-top: 50px;
+		padding-left: 35px;
+		font-size: 28px;
+	}
+
 
 
 
