@@ -120,6 +120,15 @@ body {
 		font-size: 28px;
 	}
 
+	#divider2 {
+		height: 3px;
+		width: 830px;
+		background-color: #cccccc;
+		padding-left: 35px;
+		margin-top: 70px;
+		margin-left: 35px;
+	}
+
 
 
 
