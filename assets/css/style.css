@@ -129,77 +129,30 @@ body {
 		margin-left: 35px;
 	}
 
-
-
-
-	  
-  h2 {
-	font-size: 24px;
-  }
-	
-	.container {
-		height: 800px;
-		width: 1350px;
-		border: 50px;
-		padding: 50px;
+	.img-responsive {
+		height: 50px;
+		width: 75px;
 		margin: 0 auto;
 		float: left;
 		align-self: center;
+		padding-top: 50px;
+		padding-left: 35px;
 	}
 
-.col-sm-6 {
-	float: left;
-}
+	#autobiography {
+		height: 200px;
+		width: 750px;
+		margin: 0 auto;
+		float: left;
+		align-self: center;
+		padding-top: 50px;
+		padding-left: 150px;
+	}
 
-.col-sm-7 {
-}
-
-/*.jumbotron {
-	height: 200px;
-	width: 1350px;
-	border: 50px;
-	padding: 60px;
-	margin: 0 auto;
-	float: left;
-	align-self: center;
-	background-color: gray;
-}*/
-
-.jumbotron h1 {
-	color: white;
-	float: left;
-	margin: 60px;
-	border: 60px;
-	align-self: center;
-}
-
-p, h1, h4 {
-	font-family: 'Roboto Slab', serif;
-	float: left;
-}
-
-#funText {
-	color: black;
-	font-size: 24px;
-	font-family: 'Roboto Slab', serif;
-}
-
-#box {
-	height: 100px;
-	width: 100px;
-	margin:auto;
-}
-
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.img-responsive {
-	height: 500px;
-	width: 750px;
-	margin: 0 auto;
-	float: left;
-	align-self: center;
-}
+	#autobiography2 {
+		height: 100px;
+		width: 700px;
+		align-self: center;
+		padding-top: 50px;
+		padding-left: 50px;
+	}
