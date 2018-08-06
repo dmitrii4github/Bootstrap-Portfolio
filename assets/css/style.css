@@ -151,8 +151,14 @@ body {
 
 	#autobiography2 {
 		height: 100px;
-		width: 700px;
+		width: 800px;
 		align-self: center;
 		padding-top: 50px;
-		padding-left: 50px;
+		padding-left: 35px;
+	}
+
+	#divider3 {
+		height: 8px;
+		width: 100%;
+		background-color: #4aaaa5;
 	}
