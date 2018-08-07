@@ -140,6 +140,16 @@ body {
 		padding-left: 35px;
 	}
 
+	.img-family {
+		height: 50px;
+		width: 75px;
+		margin: 0 auto;
+		float: left;
+		align-self: center;
+		padding-top: 50px;
+		padding-left: 35px;
+	}
+
 	#autobiography {
 		height: 200px;
 		width: 750px;
