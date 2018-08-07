@@ -205,3 +205,27 @@ body {
 		z-index: 1;
 		position: relative;
 	}
+
+	h3 {
+		font-size: 13px;
+		margin-left: 35px;
+		color: #777777;
+	}
+
+	input {
+		margin-left: 35px;
+		font-size: 10px;
+	}
+
+	#textbox {
+		width: 600px;
+		height: 105px;
+	}
+
+	button {
+		margin-left: 35px;
+		margin-top: 22px;
+		color: white;
+		background-color: #4aaaa5;
+		font-size: 13px;
+	}
