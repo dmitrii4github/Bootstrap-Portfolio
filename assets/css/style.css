@@ -141,8 +141,8 @@ body {
 	}
 
 	.img-family {
-		height: 50px;
-		width: 75px;
+		height: 250px;
+		width: 350px;
 		margin: 0 auto;
 		float: left;
 		align-self: center;
@@ -185,4 +185,22 @@ body {
 		padding-left: 700px;
 		color: #cccccc;
 		font-size: 12px;
+	}
+
+	.portfolio-sign {
+		height: 50px;
+		width: 300px;
+		margin-top: -60px;
+		float: left;
+		align-self: center;
+		padding-top: 10px;
+		padding-left: 120px;
+		background-color: #4aaaa5;
+		z-index: 2;
+		position: relative;
+	}
+
+	#image-family {
+		z-index: 1;
+		position: relative;
 	}
