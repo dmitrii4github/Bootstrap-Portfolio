@@ -67,26 +67,18 @@ body {
 	   color: #cccccc;
    }
 
-   .topnav {
-	padding-top: 33px;
-	background-color: white;
-	color: #777777;
-    overflow: hidden;
-    }
-
-    /* Style the links inside the navigation bar */
-    .topnav a {
-	padding: 57px;
-	float: left;
-	text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-    }
-
-    /* Change the color of links on hover */
-    .topnav a:hover {
-    color: black;
+    a:hover {
+    color: rgb(214, 22, 22);
 	}
+
+	a:focus {
+		color: blue;
+	}
+
+	a:active {
+		color: yellow;
+	}
+
 
     .divider {
 		height: 3px;
