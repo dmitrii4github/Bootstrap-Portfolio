@@ -97,9 +97,9 @@ body {
 	}
 
 
-	#divider2 {
+	.my-4 {
 		height: 3px;
-		width: 830px;
+		width: 730px;
 		background-color: #cccccc;
 		padding-left: 35px;
 		margin-top: 70px;
