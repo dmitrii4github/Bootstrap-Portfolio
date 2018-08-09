@@ -1,57 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
 <head>
-	<title>Dmitrii Zakharov Page</title>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<!-- Linking CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<!-- Linking jQuery -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<!-- Linking Google Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Yellowtail' rel='stylesheet' type='text/css'>
+
+  <meta charset="UTF-8">
+  <title>Coding Boot Camp!</title>
+
+  <!-- We link our html to the Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
 
-    <div id="app-root">
-        <nav class="site-nav">
-            <div class="section-contained-narrow site-nav__container"> 
-                <div class="site-nav__main"><h1>Dmitrii Zakharov</h1></div>
-                <div class="site-nav__menu">
-                    <a class="active site-nav__menuitem" href="index.html"><b>About</b>  | </a>
-                    <a class="site-nav__menuitem" href="portfolio.html">    <b>Portfolio</b>  | </a>
-                    <a class="site-nav__menuitem" href="contact.html">   <b>Contact</b></a>
-                <div>
-            </div>
-        </nav>
-        <div class="divider"></div>
-        <div class="about-me__container">
-            <div class="about-me__container_upper"></div>
-            <div class="about-me">
-                <div id="AboutMe">About me</div>
-                <div id="divider2"></div>
-                <div class="img-responsive">
-                    <img src="assets/images/SpeakerPhoto_Zakharov_Dmitrii.jpg">                    
-                </div>
-                <div id="autobiography">        
-                    <p>
-                        <b>Dmitrii Zakharov</b> (born May 28, 1973), is a human and Splunk celebrity. 
-                    </p> 
-                    <p>
-                        Dmitrii's popularity originated from a picture posted to the Splunk HipChat channel on October 7, 2013. Any Splunk employee could bring up this emoji by typing {idealform}.
-                    </p>
-                </div>
-                <div id="autobiography2">
-                    <p>
-                        Dmitrii was born in Novomoskovsk, Ukraine and when he was one years old, his family moved to the Moscow Region of Russia. 
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div id="divider3"></div>
-        <footer>
-            <div id="copyright">Copyright ©</div>
-        </footer>
+  <!-- Container Div -->
+  <div class="container">
+
+    <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <!-- Our brand / logo -->
+      <a class="navbar-brand" href="#"><h1>Dmitrii Zakharov</h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <!-- Collapsible button -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+
+          <!-- The links of our navbar -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+                <a class="nav-link" href="#">|</a>
+          </li>    
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+                <a class="nav-link" href="#">|</a>
+          </li>    
+          <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="divider"></div>
+
+    <!-- Jumbotron element -->
+    <div class="jumbotron">
+
+      <!-- centered text -->
+      <h1 class="text-center"><strong>Awesome Header</strong></h1>
+      <h2 class="text-center">Smaller Awesome Header</h2>
+      <h3 class="text-center">Even Smaller Header</h3>
+
+      <!-- button with predefined style rules -->
+      <p class="text-center">
+        <a class="btn btn-primary btn-lg" href="#" role="button">
+          <span class="fa fa-envelope"></span> Learn more</a>
+      </p>
     </div>
+
+    <!-- a Bootstrap row with columns -->
+    <div class="row">
+
+      <!-- At large+ screens takes up half width (6/12) -->
+      <div class="col-lg-6">
+
+        <!-- centered image with thumbnail rules -->
+        <img class="img thumbnail center-block" src="http://legacy.nerdywithchildren.com/wp-content/uploads/2013/06/ComfyChildKeyboard.jpg" alt="KidComputer" width="50%">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, molestiae modi accusantium animi magnam veniam, impedit asperiores sint consequuntur debitis fugit quibusdam dolor, iusto sed porro ab minus voluptatibus amet.</p>
+      </div>
+
+      <!-- At large+ screens takes up half width (6/12) -->
+      <div class="col-lg-6">
+        <img class="img thumbnail center-block" src="https://images.unsplash.com/photo-1477453559950-e541fa922120" alt="LittleCoder" width="50%">
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, maiores, quos. At, animi, facilis. Alias itaque ab minima rerum, eaque animi nesciunt harum nemo est cumque voluptas, qui reprehenderit atque.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
