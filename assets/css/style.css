@@ -63,9 +63,9 @@
    .about-me__container {
 	background: white;
 	height: 500px;
-	/*width: 831px;
-	margin-left:283px;
-	margin-right:283px;*/
+	/*width: 831px;*/
+	margin-left:11%;
+	margin-right:11%;
 	border: 1px #cccccc solid;
 }
 
