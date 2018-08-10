@@ -105,9 +105,9 @@
 	}
 
 	.img-responsive {
-		height: 50px;
-		/*width: 100px;
-		margin: 0 auto;*/
+		height: 100px;
+		width: 100px;
+		margin: 0 auto;
 		float: left;
 		align-self: center;
 		/*padding-left: 35px;*/
@@ -115,10 +115,16 @@
 
 	.col-lg-6 {
 		flex: 0 0 20%;
+		margin-left: 5%;
 	}
 
 	.col-lg-7 {
-		/*width: 650px;*/
+		margin-left: 5%;
+	}
+
+	.row {
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 
 	.img-family {
