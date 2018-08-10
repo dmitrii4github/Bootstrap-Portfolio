@@ -89,7 +89,7 @@
 	}
 
 	.display-4 {
-		/*margin-left: 0px;*/
+		margin-left: 7.5%;
 	}
 
 
@@ -97,9 +97,11 @@
 		height: 3px;
 		/*width: 730px;*/
 		background-color: #cccccc;
-		padding-left: 35px;
+		padding-left: 5%;
+		padding-right: 5%;
 		margin-top: 70px;
-		margin-left: 35px;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 
 	.img-responsive {
