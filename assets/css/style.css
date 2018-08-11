@@ -17,6 +17,7 @@ body {
 	flex-direction: row;
 	align-items: center;
 	height: 80px;
+	/* margin-left: 11%; */
    }
 
    h1 {
@@ -25,8 +26,8 @@ body {
 	padding-left: 20px;
 	padding-top: 53px;
 	margin-top: 0px;
-	margin-left: auto;
-	margin-right: auto;
+	/* margin-left: 11%; */
+	/* margin-right: auto; */
 	font-size: 28px;
 	color: white;
 	text-align: center;
@@ -70,17 +71,20 @@ body {
    }*/
 
    .jumbotron {
-	   /*width: 1450px;*/
+	   height: 600px;
 	   background-image: url(../images/concrete-texture/concrete-texture.png);
+	   margin-bottom: 0px;
    }
 
    .about-me__container {
 	background: white;
 	height: 500px;
 	/*width: 831px;*/
-	margin-left:11%;
-	margin-right:11%;
+	margin-left:14%;
+	margin-right:14%;
 	border: 1px #cccccc solid;
+	/* padding-left: 5%; */
+	/* padding-right: 5%; */
 	}
 
 	.nav-link {
