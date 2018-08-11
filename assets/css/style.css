@@ -8,22 +8,36 @@ body {
 	background: white;
   }
 
-  /*.container { 
-	  width: 960px;
-  }*/
+  /* .navbar {
+	  height: 80px;
+  } */
 
-  h1 {
+  .site-nav__main {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 80px;
+   }
+
+   h1 {
 	width: 350px;
-	height: 100px;
+	height: 137px;
 	padding-left: 20px;
-	padding-top: 35px;
+	padding-top: 53px;
 	margin-top: 0px;
-	/*margin-left: 45%;*/
+	margin-left: auto;
+	margin-right: auto;
 	font-size: 28px;
 	color: white;
 	text-align: center;
 	background: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+   }
+
+   .navbar-nav {
+	   margin-top: 50px;
+	   margin-bottom: 25px;
+	   /* padding-bottom: 22px; */
    }
 
    .display-4 {
