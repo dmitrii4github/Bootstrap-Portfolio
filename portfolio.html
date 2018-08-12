@@ -1,49 +1,70 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Dmitrii Zakharov Page</title>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<!-- Linking CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<!-- Linking jQuery -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<!-- Linking Google Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Yellowtail' rel='stylesheet' type='text/css'>
-</head>
-<body>
+<html lang="en-us">
 
-    <div id="app-root">
-        <nav class="site-nav">
-            <div class="section-contained-narrow site-nav__container"> 
-                <div class="site-nav__main"><h1>Dmitrii Zakharov</h1></div>
-                <div class="site-nav__menu">
-                    <a class="active site-nav__menuitem" href="index.html"><b>About</b>  | </a>
-                    <a class="site-nav__menuitem" href="portfolio.html">    <b>Portfolio</b>  | </a>
-                    <a class="site-nav__menuitem" href="contact.html">   <b>Contact</b></a>
-                <div>
-            </div>
-        </nav>
-        <div class="divider"></div>
-        <div class="about-me__container">
-            <div class="about-me__container_upper"></div>
-            <div class="about-me">
-                <div id="AboutMe">Portfolio</div>
-                <div id="divider2"></div>
-                <div class="img-family">
-                    <img id="image-family" src="assets/images/VerchikPashaLiza.jpeg" width="300px" height="200px">
-                    <div class="portfolio-sign">Family</div>                  
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dmitrii Zakharov Page</title>
+
+  <!-- We link our html to the Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+      <div class="container">
+        <nav class="navbar navbar-expand flex-column flex-md-row bd-navbar">
+            <div class="navbar-brand site-nav__main"><h1>Dmitrii Zakharov</h1></div>
+    
+                <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                    <a class="nav-link" href="#">|</a>
+                            </li>    
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item active">
+                                    <a class="nav-link" href="#">|</a>
+                            </li>    
+                            <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+       </div>
+    
+    <div class="divider"></div>
+
+    <div class="jumbotron">
+            <div class="about-me__container">
+                <h2 class="display-4">Portfolio</h2>
+                <hr class="my-4">
+                <div class="row">
+                    <div class="col-md-6" class="img-family">
+                        <img id="image-family" src="assets/images/VerchikPashaLiza.jpeg" width="300px" height="200px">
+                        <div class="portfolio-sign">Family</div>
+                    </div>
+                    <div class="col-md-6" class="img-family">
+                            <img id="image-family" src="assets/images/SplunkSoccer.jpeg" width="300px" height="200px">
+                            <div class="portfolio-sign">Soccer</div>                  
+                    </div>
                 </div>
-                <div class="img-family">
-                        <img id="image-family" src="assets/images/SplunkSoccer.jpeg" width="300px" height="200px">
-                        <div class="portfolio-sign">Soccer</div>                  
-                </div>
+                <div class="row"></div>
             </div>
-        </div>
-        <div id="divider3"></div>
-        <footer>
-            <div id="copyright">Copyright ©</div>
-        </footer>
     </div>
+
+    <div id="divider3"></div>
+    <footer>
+        <div id="copyright">Copyright ©</div>
+    </footer>
+
 </body>
+
 </html>
