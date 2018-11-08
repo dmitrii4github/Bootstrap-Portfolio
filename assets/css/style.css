@@ -134,6 +134,12 @@ body {
 	   margin-bottom: 0px;
    }
 
+   .jumbotron_p {
+	height: 1200px;
+	background-image: url(../images/concrete-texture/concrete-texture.png);
+	margin-bottom: 0px;
+   }
+
    .about-me__container {
 	background: white;
 	height: 500px;
@@ -144,6 +150,17 @@ body {
 	/* padding-left: 5%; */
 	/* padding-right: 5%; */
 	}
+
+	.portfolio__container {
+		background: white;
+		height: 1000px;
+		/*width: 831px;*/
+		margin-left:14%;
+		margin-right:14%;
+		border: 1px #cccccc solid;
+		/* padding-left: 5%; */
+		/* padding-right: 5%; */
+		}
 
 	.nav-link {
 		color: #777777;
@@ -191,16 +208,18 @@ body {
 	.row {
 		margin-left: 5%;
 		margin-right: 5%;
+		margin-top: 50px;
 	}
 
 	.img-family {
 		height: 250px;
 		width: 350px;
-		margin: 0 auto;
+		/* margin: 0 auto; */
 		float: left;
 		align-self: center;
-		padding-top: 50px;
+		padding-top: 150px;
 		padding-left: 35px;
+		margin-top: 150px;
 	}
 
 	#autobiography {
@@ -248,6 +267,20 @@ body {
 		align-self: center;
 		padding-top: 10px;
 		padding-left: 120px;
+		background-color: #4aaaa5;
+		color: white;
+		z-index: 2;
+		position: relative;
+	}
+
+	.portfolio-sign_game {
+		height: 50px;
+		width: 300px;
+		margin-top: -60px;
+		float: left;
+		align-self: center;
+		padding-top: 10px;
+		padding-left: 75px;
 		background-color: #4aaaa5;
 		color: white;
 		z-index: 2;
