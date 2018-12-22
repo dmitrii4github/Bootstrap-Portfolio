@@ -135,7 +135,7 @@ body {
    }
 
    .jumbotron_p {
-	height: 1500px;
+	height: 1700px;
 	background-image: url(../images/concrete-texture/concrete-texture.png);
 	margin-bottom: 0px;
    }
@@ -153,7 +153,7 @@ body {
 
 	.portfolio__container {
 		background: white;
-		height: 1350px;
+		height: 1800px;
 		/*width: 831px;*/
 		margin-left:14%;
 		margin-right:14%;
